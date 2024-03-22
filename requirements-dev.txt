@@ -1,0 +1,14 @@
+# deps pytest
+iniconfig==2.0.0
+packaging==24.0
+pluggy==1.4.0
+pytest==8.1.1
+
+# deps pytest-flask
+pytest-flask==1.3.0
+
+# deps flake8
+flake8==7.0.0
+mccabe==0.7.0
+pycodestyle==2.11.1
+pyflakes==3.2.0
