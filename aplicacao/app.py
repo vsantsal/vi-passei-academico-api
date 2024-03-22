@@ -5,8 +5,11 @@ from flask import Flask
 
 
 def create_app():
-    app = Flask(__name__)
-    return app
+    """
+    Fábrica para criar o app principal Flask.
+    """
+    aplicacao = Flask(__name__)
+    return aplicacao
 
 
 app = create_app()
