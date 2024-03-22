@@ -4,8 +4,11 @@ Entrypoint da aplicação Flask.
 from flask import Flask
 
 
-app = Flask(__name__)
+def create_app():
+    app = Flask(__name__)
+    return app
 
+app = create_app()
 
 @app.route('/')
 def index():
